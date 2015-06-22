@@ -19,7 +19,7 @@ This code is released under the MIT license.
 Distributed as-is; no warranty is given.
 ******************************************************************************/
 #include "SparkFunMAX17043.h"
-#include "util/MAX17043_Definitions.h"
+#include "MAX17043_Definitions.h"
 
 MAX17043::MAX17043()
 {
