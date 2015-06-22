@@ -27,7 +27,7 @@ This code is released under the MIT license.
 Distributed as-is; no warranty is given.
 ******************************************************************************/
 
-#include "SparkFunMAX17043.h" // Include the SparkFun MAX17043 library
+#include "SparkFunMAX17043/SparkFunMAX17043.h" // Include the SparkFun MAX17043 library
 
 double voltage = 0;
 double soc = 0;
