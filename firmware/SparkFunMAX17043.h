@@ -71,6 +71,10 @@ public:
   // OUTPUT: Returns 1 if interrupt is/was triggered, 0 if not.
   uint8_t getAlert(bool clear = false);
 
+  // clearAlert() - Clear the MAX17043's alert flag.
+  // Output: 0 on success, positive integer on fail.
+  uint8_t clearAlert();
+  
   // sleep() - Set the MAX17043 into sleep mode.
   // Output: 0 on success, positive integer on fail.
   uint8_t sleep();
