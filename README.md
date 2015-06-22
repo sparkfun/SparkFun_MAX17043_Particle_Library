@@ -1,12 +1,12 @@
 ## SparkFun MAX17043 Particle Library
 
-Firmware library SparkFun's Photon IMU Shield and the MAX17043 Breakout.
+Firmware library SparkFun's Photon Battery Shield and the MAX17043 Breakout.
 
 ### About
 
-This is a firmware library for [SparkFun's Photon IMU Shield](https://www.sparkfun.com/products/13629).
+This is a firmware library for [SparkFun's Photon Battery Shield](https://www.sparkfun.com/products/13626).
 
-[![Photon IMU Shield](https://cdn.sparkfun.com//assets/parts/1/1/0/1/6/13629-01.jpg)](https://www.sparkfun.com/products/13629).
+[![Photon Battery Shield](https://cdn.sparkfun.com//assets/parts/1/1/0/0/9/13626-01.jpg)](https://www.sparkfun.com/products/13626).
 
 ### Example Usage
 
@@ -17,4 +17,4 @@ Check out the example files in the [examples directory](https://github.com/spark
 ### Recommended Components
 
 * [Particle Photon](https://www.sparkfun.com/products/13345)
-* [SparkFun Photon IMU Shield](https://www.sparkfun.com/products/13629)
+* [SparkFun Photon Battery Shield](https://www.sparkfun.com/products/13626)
