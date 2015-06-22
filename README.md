@@ -2,13 +2,25 @@
 
 Firmware library SparkFun's Photon Battery Shield and the MAX17043 Breakout.
 
-### About
+About
+-------------------
 
 This is a firmware library for [SparkFun's Photon Battery Shield](https://www.sparkfun.com/products/13626).
 
 [![Photon Battery Shield](https://cdn.sparkfun.com//assets/parts/1/1/0/0/9/13626-01.jpg)](https://www.sparkfun.com/products/13626).
 
-### Example Usage
+The MAX17043 interfaces between a LiPo battery and a microcontroller. The MAX17043 can read a battery's voltage and, using a sophisticated battery-modelling algorithm, estimate the state of charge (SOC).
+
+Repository Contents
+-------------------
+
+* **/doc** - Additional documentation for the user. These files are ignored by the IDE. 
+* **/firmware** - Source files for the library (.cpp, .h).
+* **/firmware/examples** - Example sketches for the library (.ino). Run these from the Arduino IDE. 
+* **spark.json** - General library properties for the Particel library manager. 
+
+Example Usage
+-------------------
 
 Include the MAX17043 library:
 
@@ -39,7 +51,21 @@ Then you can read the voltage and state-of-charge (SOC) values like this:
 	
 Check out the example files in the [examples directory](https://github.com/sparkfun/SparkFun_MAX17043_Particle_Library/tree/master/firmware/examples) for more guidance.
 
-### Recommended Components
+Recommended Components
+-------------------
 
 * [Particle Photon](https://www.sparkfun.com/products/13345)
 * [SparkFun Photon Battery Shield](https://www.sparkfun.com/products/13626)
+
+License Information
+-------------------
+
+This product is _**open source**_! 
+
+Please review the LICENSE.md file for license information. 
+
+If you have any questions or concerns on licensing, please contact techsupport@sparkfun.com.
+
+Distributed as-is; no warranty is given.
+
+- Your friends at SparkFun.
