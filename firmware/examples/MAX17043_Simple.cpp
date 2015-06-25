@@ -29,9 +29,9 @@ Distributed as-is; no warranty is given.
 
 #include "SparkFunMAX17043/SparkFunMAX17043.h" // Include the SparkFun MAX17043 library
 
-double voltage = 0;
-double soc = 0;
-bool alert;
+double voltage = 0; // Variable to keep track of LiPo voltage
+double soc = 0; // Variable to keep track of LiPo state-of-charge (SOC)
+bool alert; // Variable to keep track of whether alert has been triggered
 
 void setup()
 {
@@ -53,7 +53,7 @@ void setup()
 
 	// We can set an interrupt to alert when the battery SoC gets too low.
 	// We can alert at anywhere between 1% - 32%:
-	lipo.setThreshold(10); // Set alert threshold to 10%.
+	lipo.setThreshold(20); // Set alert threshold to 20%.
 }
 
 void loop()
