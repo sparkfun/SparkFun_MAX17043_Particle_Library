@@ -31,7 +31,7 @@ Distributed as-is; no warranty is given.
 
 double voltage = 0; // Variable to keep track of LiPo voltage
 double soc = 0; // Variable to keep track of LiPo state-of-charge (SOC)
-bool alert; // Variable to keep track of whether alert has been triggered
+int alert; // Variable to keep track of whether alert has been triggered
 
 void setup()
 {
