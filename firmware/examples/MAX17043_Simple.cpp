@@ -38,9 +38,9 @@ void setup()
 	Serial.begin(9600); // Start serial, to output debug data
 
 	// Set up Spark variables (voltage, soc, and alert):
-	Spark.variable("voltage", &voltage, DOUBLE);
-	Spark.variable("soc", &soc, DOUBLE);
-	Spark.variable("alert", &alert, INT);
+	Particle.variable("voltage", voltage);
+	Particle.variable("soc", soc);
+	Particle.variable("alert", alert);
 	// To read the values from a browser, go to:
 	// http://api.particle.io/v1/devices/{DEVICE_ID}/{VARIABLE}?access_token={ACCESS_TOKEN}
 
