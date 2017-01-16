@@ -136,7 +136,7 @@ uint8_t MAX17043::clearAlert()
 {
   // Read config reg, so we don't modify any other values:
   uint16_t configReg = read16(MAX17043_CONFIG);
-  configReg &= ~(1<<6); // Clear ALRT bit manually.
+  configReg &= ~(1<<MAX17043_CONFIG_ALERT); // Clear ALRT bit manually.
 
   return write16(configReg, MAX17043_CONFIG);
 }
@@ -145,11 +145,11 @@ uint8_t MAX17043::getAlert(bool clear)
 {
   // Read config reg, so we don't modify any other values:
   uint16_t configReg = read16(MAX17043_CONFIG);
-  if (configReg & (1<<6))
+  if (configReg & (1<<MAX17043_CONFIG_ALERT))
   {
     if (clear) // If the clear flag is set
     {
-      configReg &= ~(1<<6); // Clear ALRT bit manually.
+      configReg &= ~(1<<MAX17043_CONFIG_ALERT); // Clear ALRT bit manually.
       write16(configReg, MAX17043_CONFIG);
     }
     return 1;
