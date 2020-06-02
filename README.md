@@ -7,7 +7,7 @@ About
 
 This is a firmware library for [SparkFun's Photon Battery Shield](https://www.sparkfun.com/products/13626).
 
-[![Photon Battery Shield](https://cdn.sparkfun.com//assets/parts/1/1/0/0/9/13626-01.jpg)](https://www.sparkfun.com/products/13626).
+[![Photon Battery Shield](https://cdn.sparkfun.com//assets/parts/1/1/0/0/9/13626-01a.jpg)](https://www.sparkfun.com/products/13626).
 
 The MAX17043 interfaces between a LiPo battery and a microcontroller. The MAX17043 can read a battery's voltage and, using a sophisticated battery-modelling algorithm, estimate the state of charge (SOC).
 
